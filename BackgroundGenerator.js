@@ -17,25 +17,3 @@ function setGradient() {
 
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
-
-
-
-
-/*color1.addEventListener("input", function (){
-	body.style.background = 
-		"linear-gradient(to right, " 
-		+ color1.value 
-		+ ", " 
-		+ color2.value 
-		+ ")";
-})
-
-color2.addEventListener("input", function() {
-	body.style.background = 
-		"linear-gradient(to right, " 
-		+ color1.value 
-		+ ", " 
-		+ color2.value 
-		+ ")";
-	console.log(color2.value)
-})*/
